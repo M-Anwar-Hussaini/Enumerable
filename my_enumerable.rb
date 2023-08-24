@@ -1,17 +1,19 @@
 module MyEnumerable
-  # This method iterates over each item in the collection and yields it to the block.
+  # The all? method checks if a given condition (block) is true for all elements in the collection.
   def all?
     each { |item| return false unless yield(item) }
     true
   end
 
-  # This method iterates over each item in the collection and yields it to the block.
+  # The any? method checks if at least one element in the collection
+  # satisfies a given condition (block).
   def any?
     each { |item| return true if yield(item) }
     false
   end
 
-  # This method iterates over each item in the collection and yields it to the block.
+  # The filter method is used to create a new array containing elements
+  # from the collection that satisfy a given condition (block).
   def filter
     result = []
     each { |item| result << item if yield(item) }
