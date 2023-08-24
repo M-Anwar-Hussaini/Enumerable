@@ -11,4 +11,11 @@ module MyEnumerable
     each { |item| return true if yield(item) }
     false
   end
+
+  # This method iterates over each item in the collection and yields it to the block.
+  def filter
+    result = []
+    each { |item| result << item if yield(item) }
+    result
+  end
 end
