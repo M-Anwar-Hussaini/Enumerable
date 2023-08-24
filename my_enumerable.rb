@@ -5,4 +5,10 @@ module MyEnumerable
     each { |item| return false unless yield(item) }
     true
   end
+
+  # This method iterates over each item in the collection and yields it to the block.
+  def any?
+    each { |item| return true if yield(item) }
+    false
+  end
 end
