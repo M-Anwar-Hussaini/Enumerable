@@ -1,8 +1,5 @@
 <a name="readme-top"></a>
 
-
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -29,7 +26,6 @@
 
 # 📖 [Enumerable] <a name="about-project"></a>
 
-
 **[Enumerable]** is a Ruby based that create a Enumerable using Ruby class and Moodules..
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -50,11 +46,11 @@
 - **[Create MyList Class]**
 - **[Create instances for MyList class]**
 - **[Add functuanalities for the Enumerable]**
-
+- **[Create class including the Enumerable]**
+- **[Create instance for the class]**
+- **[Test the class and the Enumerable Methods]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 
@@ -65,6 +61,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
 1. Ruby installed
 2. IDE or a code editor
 3. IRB
@@ -73,13 +70,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
 Example commands:
 
 ```sh
   cd my-folder
   git clone https://github.com/M-Anwar-Hussaini/Enumerable
 ```
+
 -
 
 ### Install
@@ -91,13 +88,11 @@ Install this project with:
   gem install
 ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 
 # Getting Started with the Vet Clinic GitHub Repository
 
