@@ -47,7 +47,7 @@
 - **[Create instances for MyList class]**
 - **[Add functuanalities for the Enumerable]**
 - **[Create class including the Enumerable]**
-- **[Create instances for the class]**
+- **[Create instance for the class]**
 - **[Test the class and the Enumerable Methods]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
